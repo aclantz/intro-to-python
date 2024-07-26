@@ -1,0 +1,36 @@
+Exercise 1.1: Getting Started with Python 
+
+Learning Goals
+- Summarize the uses and benefits of Python for web development
+- Prepare your developer environment for programming with Python
+
+Reflection Questions
+
+1. In your own words, what is the difference between frontend and backend web development?
+ If you were hired to work on backend programming for a web application, what kinds of operations would you be working on?
+
+  - The main difference between frontend and backend work in my experience has been the focus of who/what will be using what you are making. 
+  In frontend the user will be using what you are building dos the UI needs to be clear, easy, and enjoyable. While in backend the application 
+  will interact with what you are building so that the main functions of the application work. In a situation where I was working on the back 
+  end I would be focused on endpoints for the frontend to connect to and building business logic to connect with the DB of information.
+
+2. Imagine you’re working as a full-stack developer in the near future. Your team is asking for your advice on whether to use JavaScript or Python for a project,
+ and you think Python would be the better choice. How would you explain the similarities and differences between the two languages to your team? Drawing from 
+ what you learned in this Exercise, what reasons would you give to convince your team that Python is the better option? 
+(Hint: refer to the Exercise section “The Benefits of Developing with Python”)
+
+  - Python and Javascript are similar programming languages but python excels in its readability and and volume of packages available. 
+  This makes python accessible and flexible in a way that out shines Javascript. If we have a diverse team working with different backgrounds 
+  this would allow for a well rounded application that most of the team would be able to access.
+
+3. Now that you’ve had an introduction to Python, write down 3 goals you have for yourself and your learning during this Achievement. You can reflect 
+on the following questions if it helps you. What do you want to learn about Python? What do you want to get out of this Achievement? Where or what 
+do you see yourself working on after you complete this Achievement?
+
+  My goals include:
+	- Become comfortable using REPL
+	- Become more aware of difference between Javascript and python
+	- Someday build a backend with Python
+	I hope to gain an understanding of the language and feel comfortable adding it to my list of skills. I am curious to see 
+  through use what makes python so popular.
+
