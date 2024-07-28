@@ -19,3 +19,7 @@ web app counterpart in Achievement 2.
 - Display more details on each recipe if the user prompts it, such as the ingredients, cooking time,
 and difficulty of the recipe.
 
+## Exercise 1.2
+I have chosen to have my recipe structure to be a dictionary. I think because each recipe is going to be full different sections that suit key-value pairs (e.g. Cooking-time: 5 min, Ingredients: [ …] ) this feels like the natural format. Each key will also hold a mix of value types and this suits dictionaries.
+
+For my outer structure I am going to use a List to store my recipe dictionaries. If we are looking for structure that is sequential, and allows for easy adjustment, I think a List suits this best because it is mutable and allows for modifications, additions, and deletions.
