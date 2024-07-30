@@ -7,6 +7,11 @@ Career Foundry, Specialization Python, Achievement 1
   - hello.py
   - requirements.txt
   - Journal 
+- Exercise 1.2
+  - practice tasks 1 - 5
+  - task img 1
+  - task img 2
+  - Journal
 
 ## Objective 
 Build the command line version of a Recipe app, which acts as a precursor to its
