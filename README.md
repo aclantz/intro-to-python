@@ -12,6 +12,13 @@ Career Foundry, Specialization Python, Achievement 1
   - task img 1
   - task img 2
   - Journal
+- Exercise 1.3
+  - practice tasks 1 - 3
+  - add.py
+  - name.capitolizer.py
+  - exercise_1.3.py
+  - 1.3exercise-ipython.png
+  - journal
 
 ## Objective 
 Build the command line version of a Recipe app, which acts as a precursor to its
