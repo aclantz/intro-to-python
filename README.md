@@ -24,7 +24,8 @@ Career Foundry, Specialization Python, Achievement 1
   - recipe_input.py
   - recipe_search.py
   - recipe_data.bin
-  - ipython-exercise.png
+  - ipython-exercise1.4.png
+  - updated-ipython-exercise1.4.png
   - journal
 
 ## Objective 

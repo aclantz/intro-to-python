@@ -13,19 +13,19 @@ def display_recipe(recipe):
 
 def search_ingredients(data):
     print("All ingredients: ")
-    for item, value in enumerate(
-        data["all_ingredients"]
-    ):  # is this formatted correctly?
+    for item, value in enumerate(data["all_ingredients"]):
         print(str(item) + " " + str(value))
     try:
-        n = input("Pick an ingredient number to search: ")
-        ingredient_searched = data["all_ingredients"[n]]
+        n = int(
+            input("Pick an ingredient number to search: ")
+        )  
+        ingredient_searched = data["all_ingredients"][n] 
     except:
         "Input value does not have a match"
-    else:
-        for recipe in data["recipe_list"]:
-            if ingredient_searched in recipe["ingredients"]:
-                display_recipe(recipe)  # why is this not displaying?
+
+    for recipe in data["recipe_list"]:
+        if ingredient_searched in recipe["ingredients"]:
+            display_recipe(recipe)
 
 
 # Main code ---------------
