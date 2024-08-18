@@ -27,6 +27,15 @@ Career Foundry, Specialization Python, Achievement 1
   - ipython-exercise1.4.png
   - updated-ipython-exercise1.4.png
   - journal
+- Exercise 1.5
+  - practice tasks 1- 3
+  - recipe_oop.py
+  - 1.5exercise-ipython 1 - 2
+- Exercise 1.6
+  - Practice tasks 1 - 2
+  - ipython-1.6task 1 - 5
+  - recipe_mysql.py
+  - journal
 
 ## Objective 
 Build the command line version of a Recipe app, which acts as a precursor to its
