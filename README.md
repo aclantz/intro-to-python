@@ -36,6 +36,11 @@ Career Foundry, Specialization Python, Achievement 1
   - ipython-1.6task 1 - 5
   - recipe_mysql.py
   - journal
+- Exercise 1.7
+  - Practice tasks 1 - 3
+  - Task screen shots
+  - recipe_app.py
+  - journal
 
 ## Objective 
 Build the command line version of a Recipe app, which acts as a precursor to its
@@ -52,3 +57,11 @@ and difficulty of the recipe.
 I have chosen to have my recipe structure to be a dictionary. I think because each recipe is going to be full different sections that suit key-value pairs (e.g. Cooking-time: 5 min, Ingredients: [ …] ) this feels like the natural format. Each key will also hold a mix of value types and this suits dictionaries.
 
 For my outer structure I am going to use a List to store my recipe dictionaries. If we are looking for structure that is sequential, and allows for easy adjustment, I think a List suits this best because it is mutable and allows for modifications, additions, and deletions.
+
+## PyMySql instead of mysqlclient
+trouble using mysqlclient as advized in the lesson. switched to pymysql. changes are as follows:
+
+- adding mymysql in engine creation
+   `engine = create_engine("mysql+pymysql://cf-python:password@localhost/my_database")`
+
+
