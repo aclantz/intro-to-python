@@ -13,17 +13,17 @@ web app counterpart in Achievement 2.
 - Display more details on each recipe if the user prompts it, such as the ingredients, cooking time,
 and difficulty of the recipe.
 
-## Exercise 1.2
-I have chosen to have my recipe structure to be a dictionary. I think because each recipe is going to be full different sections that suit key-value pairs (e.g. Cooking-time: 5 min, Ingredients: [ …] ) this feels like the natural format. Each key will also hold a mix of value types and this suits dictionaries.
+## Achievement 2 
+Recipe App link : https://github.com/aclantz/recipe-django-app
 
-For my outer structure I am going to use a List to store my recipe dictionaries. If we are looking for structure that is sequential, and allows for easy adjustment, I think a List suits this best because it is mutable and allows for modifications, additions, and deletions.
-
-## PyMySql instead of mysqlclient
-trouble using mysqlclient as advized in the lesson. switched to pymysql. changes are as follows:
-
-- adding mymysql in engine creation
-   `engine = create_engine("mysql+pymysql://cf-python:password@localhost/my_database")`
-
+- Exercise 2.1
+  - Journal
+- Exercise 2.2
+  - screenshots
+  - journal
+- Exercise 2.3
+  - screenshots
+  - journal
 
 ## Achievement 1 Content
 - Exercise 1.1
@@ -65,3 +65,14 @@ trouble using mysqlclient as advized in the lesson. switched to pymysql. changes
   - Task screen shots
   - recipe_app.py
   - journal
+
+## PyMySql instead of mysqlclient
+trouble using mysqlclient as advized in the lesson. switched to pymysql. changes are as follows:
+
+- adding mymysql in engine creation
+   `engine = create_engine("mysql+pymysql://cf-python:password@localhost/my_database")`
+
+## Exercise 1.2
+I have chosen to have my recipe structure to be a dictionary. I think because each recipe is going to be full different sections that suit key-value pairs (e.g. Cooking-time: 5 min, Ingredients: [ …] ) this feels like the natural format. Each key will also hold a mix of value types and this suits dictionaries.
+
+For my outer structure I am going to use a List to store my recipe dictionaries. If we are looking for structure that is sequential, and allows for easy adjustment, I think a List suits this best because it is mutable and allows for modifications, additions, and deletions.
