@@ -1,7 +1,6 @@
 # intro-to-python
 Career Foundry, Specialization Python, Achievement 1
 
-
 ## Objective 
 Build the command line version of a Recipe app, which acts as a precursor to its
 web app counterpart in Achievement 2.
@@ -13,7 +12,7 @@ web app counterpart in Achievement 2.
 - Display more details on each recipe if the user prompts it, such as the ingredients, cooking time,
 and difficulty of the recipe.
 
-## Achievement 2 
+## Achievement 2 Content 
 Recipe App link : https://github.com/aclantz/recipe-django-app
 
 - Exercise 2.1
@@ -22,6 +21,9 @@ Recipe App link : https://github.com/aclantz/recipe-django-app
   - screenshots
   - journal
 - Exercise 2.3
+  - screenshots
+  - journal
+- Exercise 2.4
   - screenshots
   - journal
 
