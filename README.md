@@ -29,6 +29,8 @@ Recipe App link : https://github.com/aclantz/recipe-django-app
 - Exercise 2.5
   - screenshots
   - journal
+- Exercise 2.6
+  - journal
 
 ## Achievement 1 Content
 - Exercise 1.1
