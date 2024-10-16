@@ -1,5 +1,5 @@
 # intro-to-python
-Career Foundry, Specialization Python, Achievement 1
+Career Foundry, Specialization Python
 
 ## Objective 
 Build the command line version of a Recipe app, which acts as a precursor to its
@@ -12,9 +12,18 @@ web app counterpart in Achievement 2.
 - Display more details on each recipe if the user prompts it, such as the ingredients, cooking time,
 and difficulty of the recipe.
 
-## Achievement 2 Content 
-Recipe App link : https://github.com/aclantz/recipe-django-app
+## Links
+Recipe App Github link : https://github.com/aclantz/recipe-django-app
+Live Site Link : https://aclantz.pythonanywhere.com/
+(login verification use: username- visitor password- alexlantz)
 
+## PyMySql instead of mysqlclient
+trouble using mysqlclient as advized in the lesson. switched to pymysql. changes are as follows:
+
+- adding pymysql in engine creation
+   `engine = create_engine("mysql+pymysql://cf-python:password@localhost/my_database")`
+
+## Achievement 2 Content 
 - Exercise 2.1
   - Journal
 - Exercise 2.2
@@ -30,6 +39,12 @@ Recipe App link : https://github.com/aclantz/recipe-django-app
   - screenshots
   - journal
 - Exercise 2.6
+  - journal
+- Exercise 2.7
+  - journal
+  - screenshots
+- Exercise 2.8
+  - screenshots
   - journal
 
 ## Achievement 1 Content
@@ -73,13 +88,6 @@ Recipe App link : https://github.com/aclantz/recipe-django-app
   - recipe_app.py
   - journal
 
-## PyMySql instead of mysqlclient
-trouble using mysqlclient as advized in the lesson. switched to pymysql. changes are as follows:
-
-- adding mymysql in engine creation
-   `engine = create_engine("mysql+pymysql://cf-python:password@localhost/my_database")`
-
-## Exercise 1.2
-I have chosen to have my recipe structure to be a dictionary. I think because each recipe is going to be full different sections that suit key-value pairs (e.g. Cooking-time: 5 min, Ingredients: [ …] ) this feels like the natural format. Each key will also hold a mix of value types and this suits dictionaries.
-
-For my outer structure I am going to use a List to store my recipe dictionaries. If we are looking for structure that is sequential, and allows for easy adjustment, I think a List suits this best because it is mutable and allows for modifications, additions, and deletions.
+## About 
+Hi! this is Alex, I am an emerging web developer and this was my final unit in my Full-Stack Web Development course with CareerFoundry. If you are curious or have more questions for me check out my portfolio for contact information.
+https://linktr.ee/alexlantz
